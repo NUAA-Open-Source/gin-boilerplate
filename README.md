@@ -1,4 +1,4 @@
-# A2OS Gin Scaffold
+# A2OS Gin Boilerplate
 
 The example of how A2OS use gin framework.
 

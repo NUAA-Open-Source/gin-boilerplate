@@ -2,8 +2,8 @@ FROM golang:1.9.7
 
 MAINTAINER TripleZ "me@triplez.cn"
 
-WORKDIR $GOPATH/src/a2os/gin-scaffold
-ADD . $GOPATH/src/a2os/gin-scaffold/
+WORKDIR $GOPATH/src/a2os/gin-boilerplate
+ADD . $GOPATH/src/a2os/gin-boilerplate/
 
 # Solution for Chinese special network enviornment
 # RUN mkdir -p $GOPATH/src/golang.org/x/ && \
@@ -18,9 +18,9 @@ RUN mkdir -p $GOPATH/src/golang.org/x/ && \
 RUN go get github.com/pilu/fresh
 
 # Build package
-RUN go build -o gin-scaffold-dev .
+RUN go build -o gin-boilerplate-dev .
 
 EXPOSE 8080
 
 ENTRYPOINT ["fresh"]
-#ENTRYPOINT ["./gin-scaffold-dev"]
+#ENTRYPOINT ["./gin-boilerplate-dev"]

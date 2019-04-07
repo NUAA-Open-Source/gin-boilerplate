@@ -6,11 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"a2os/gin-scaffold/common"
-	"a2os/gin-scaffold/controller/misc"
-	"a2os/gin-scaffold/model"
-
-	// _ "a2os/gin-scaffold/docs"
+	"a2os/gin-boilerplate/common"
+	"a2os/gin-boilerplate/controller/misc"
+	_ "a2os/gin-boilerplate/docs"
+	"a2os/gin-boilerplate/model"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/sessions"
