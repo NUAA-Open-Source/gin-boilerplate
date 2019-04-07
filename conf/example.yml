@@ -1,0 +1,22 @@
+---
+basic:
+  debug: true
+  maintenance: false
+  port: "8080"
+storage:
+  mysql:
+    user: root
+    password: root
+    host: localhost
+    port: 3306
+    database: example
+    max_idle_conns: 30
+    max_open_conns: 100
+    timezone: Asia%2FShanghai
+    retry_interval: 20
+sentry:
+  dsn: "https://your_sentry_URL"
+  default_logger_name: "example"
+  sample_rate: 1
+log:
+  file: "log/example.log"

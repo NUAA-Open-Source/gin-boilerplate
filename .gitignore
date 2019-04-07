@@ -1,0 +1,41 @@
+# Ignore log files
+log/
+
+# Ignore docker database volume
+db-data/
+data/
+data-dev/
+
+# Ignore binary file and only file
+example
+!exmaple/
+
+# Ignore config file
+# conf/example.yml
+# conf/example.yaml
+
+# Ignore GoLand config files
+.idea/
+
+# Ignore VS Code config files
+.vscode/
+
+# Ignore fresh tmp files
+tmp/
+
+# Ignore vendor package files
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+example\.iml
