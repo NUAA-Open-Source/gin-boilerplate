@@ -35,3 +35,15 @@ $ swag init
 ## Gin-swagger
 
 Annotation documentation: https://swaggo.github.io/swaggo.io/ .
+
+
+## Contributors
+
+[See contributors](CONTRIBUTORS.md)
+
+## License
+
+Copyright (c) 2019 A2OS
+
+[MIT License](LICENSE)
+
