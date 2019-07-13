@@ -1,6 +1,6 @@
 ## Contributors
 
-This `Gin` boilerplate is developed by:
+This [Gin](https://gin-gonic.com/) boilerplate is developed by:
 
   * [Zhenzhen Zhao (Triple-Z@GitHub)](https://github.com/Triple-Z)
   * [GuoBin Wang (arcosx@GitHub)](https://github.com/arcosx)
